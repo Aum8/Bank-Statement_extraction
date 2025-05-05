@@ -15,18 +15,18 @@ This project is a Python-based tool designed to extract structured data from ban
 
 ---
 
-### Potential Use Cases
+## Potential Use Cases
 
-# Personal Finance Management
+### Personal Finance Management
 Automatically parse your own bank statements into structured data for use in budgeting apps, spreadsheets, or dashboards.
 
-# Accounting and Bookkeeping
+### Accounting and Bookkeeping
 Eliminate manual data entry by converting bank statements into structured JSON for easy integration with accounting software.
 
-# Fintech Applications
+### Fintech Applications
 Integrate this tool into fintech platforms to securely extract transactional data from uploaded bank statements, enabling credit analysis, financial planning, or loan evaluation.
 
-# Compliance and Auditing
+### Compliance and Auditing
 Help audit teams or compliance tools convert and analyze financial documents for anomalies, suspicious patterns, or regulatory reporting.
 
 ---
