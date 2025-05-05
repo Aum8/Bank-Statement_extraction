@@ -1,0 +1,10 @@
+easyocr==1.7.2
+fastapi==0.115.12
+litellm==1.68.0
+numpy==2.2.5
+paddleocr==2.10.0
+pandas==2.2.3
+pdf2image==1.17.0
+Pillow==11.2.1
+uvicorn==0.34.2
+paddlepaddle >=3.0.0
