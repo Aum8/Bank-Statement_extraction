@@ -225,7 +225,7 @@ def extract_bank_statement_data(text_statement, transactions_json):
         ## Call openrouter models
         response = completion(
             model="openrouter/tngtech/deepseek-r1t-chimera:free",
-            api_key="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",
+            api_key=os.getenv('OPENROUTER_API_KEY'),
             temperature = 0.2,
             messages=[{"content": prompt, "role": "user"}]
         )
@@ -265,5 +265,5 @@ if __name__ == "__main__":
     #     json.dump(transactions_json, f, indent=2)
     
     result = extract_bank_statement_data(pre_table_text, transactions_json)
-    with open("output-2.json", "w") as f:
+    with open("output.json", "w") as f:
         json.dump(result, f, indent=4)
