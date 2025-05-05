@@ -100,7 +100,12 @@ You can also use the FastAPI web interface to upload PDFs and get the extracted 
    ```
    http://127.0.0.1:8000/docs
    ```
-4. Use the `/extract-bank-statement/` endpoint in Swagger UI to upload a PDF file. The API will return the extracted JSON data.
+   ![FastAPI swagger UI](https://github.com/user-attachments/assets/b00b431c-c0b1-43a3-a32e-36cf8fe31c6f)
+
+4. Use the `/extract-bank-statement/` endpoint in Swagger UI to upload a PDF file.Click on 'try it out'.
+   ![Uploadding pdf and execution](https://github.com/user-attachments/assets/896d1ff8-9860-4ca3-876b-5b14c9391ace)
+
+5. Upload your bank statement pdf and click on execute. The API will return the extracted JSON of the bank statement.
 
 ---
 
