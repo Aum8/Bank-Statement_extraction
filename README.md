@@ -42,20 +42,20 @@ cd <repository-folder>
 ```
 
 ### 2. Set Up a Virtual Environment
-# On Windows
+ On Windows
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# On macOS/Linux
+ On macOS/Linux
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
-# Install the required Python packages using requirements.txt:
+ Install the required Python packages using requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
