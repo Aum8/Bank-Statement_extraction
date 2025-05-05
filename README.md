@@ -69,17 +69,12 @@ Some configurations are required for the project to run properly. Create a `.env
 GEMINI_API_KEY=your_gemini_api_key
 OPENROUTER_API_KEY=your_openrouter_api_key
 
-# Optional: Uncomment and configure if needed
-# DEBUG_MODE=true
-# OUTPUT_DIR=/path/to/output/directory
-
 # Local model configuration (if applicable)
 # LOCAL_MODEL_API_BASE=http://localhost:11434
 ```
 
 - Replace `/path/to/tesseract` with the path to your Tesseract OCR executable.
 - Replace `your_gemini_api_key` and `your_openrouter_api_key` with the respective API keys.
-- Uncomment and configure `DEBUG_MODE` and `OUTPUT_DIR` if you want to enable debugging or specify a custom output directory.
 - If using a local model, uncomment and set `LOCAL_MODEL_API_BASE` to the base URL of your local model API.
 
 ---
