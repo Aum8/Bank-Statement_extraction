@@ -15,6 +15,22 @@ This project is a Python-based tool designed to extract structured data from ban
 
 ---
 
+### Potential Use Cases
+
+# Personal Finance Management
+Automatically parse your own bank statements into structured data for use in budgeting apps, spreadsheets, or dashboards.
+
+# Accounting and Bookkeeping
+Eliminate manual data entry by converting bank statements into structured JSON for easy integration with accounting software.
+
+# Fintech Applications
+Integrate this tool into fintech platforms to securely extract transactional data from uploaded bank statements, enabling credit analysis, financial planning, or loan evaluation.
+
+# Compliance and Auditing
+Help audit teams or compliance tools convert and analyze financial documents for anomalies, suspicious patterns, or regulatory reporting.
+
+---
+
 ## Setup Instructions
 
 Follow these steps to set up the project on your local machine:
@@ -106,14 +122,6 @@ You can also use the FastAPI web interface to upload PDFs and get the extracted 
    ![Uploadding pdf and execution](https://github.com/user-attachments/assets/896d1ff8-9860-4ca3-876b-5b14c9391ace)
 
 5. Upload your bank statement pdf and click on execute. The API will return the extracted JSON of the bank statement.
-
----
-
-## FastAPI Swagger UI Screenshot
-
-Below is a screenshot of the FastAPI Swagger UI interface:
-
-![FastAPI Swagger UI](path/to/screenshot.png)
 
 ---
 
